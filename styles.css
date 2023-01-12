@@ -1,0 +1,22 @@
+ /*trying to find good inspo for css may go with a grid sytem*/
+ body {
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    background-image: url("tech\ background.jpg");
+    background-color: #cccccc;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  header {
+    background-color: #4c72af;
+    color: rgb(216, 222, 246);
+    text-align: center;
+    padding: 1em;
+  }
+
+  section {
+    text-align: center;
+    color: rgb(215, 222, 245);
+    margin: 2em;
+  }
