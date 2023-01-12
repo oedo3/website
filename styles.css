@@ -1,22 +1,14 @@
- /*trying to find good inspo for css may go with a grid sytem*/
- body {
-    font-family: 'Courier New', Courier, monospace, sans-serif;
-    background-image: url("wallpaperflare.com_wallpaper.jpg");
-    background-color: #cccccc;
-    background-size: cover;
-    height: 100%;
-    overflow: hidden;
-  }
+ 
+*{
+  margin: 0;
+  padding: 0;
+} 
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(images/flower_background.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
 
-  header {
-    background-color: #4c72af;
-    color: rgb(216, 222, 246);
-    text-align: center;
-    padding: 1em;
-  }
-
-  section {
-    text-align: center;
-    color: rgb(215, 222, 245);
-    margin: 2em;
-  }
