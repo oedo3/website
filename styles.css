@@ -11,12 +11,19 @@
   background-position: center;
   background-size: cover;
   position: relative;
+
+  text-align: center;
+  font-size: 55px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #ffffff;
+  padding-right: 50px;
 }
 
 .header-img{
+  width: 100%;
   border-color: cadetblue;
-  border: 1cm;
-  width: 30;
+  border: 1px;
+  width: 10;
   align-self: center;
 }
 
@@ -36,7 +43,7 @@ nav{
 .nav-links{
   flex: 1;
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
   background-size: 62px;
 }
 .nav-links ul li{
