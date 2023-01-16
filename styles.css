@@ -2,15 +2,30 @@
 *{
   margin: 0;
   padding: 0;
-} 
+}
+
 .header {
-  min-height: 100vh;
+  min-height: 90vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(images/simple_wallpaper.jpg);
+  background-image: url(images/simple_wallpaper.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
 }
+
+.header-img{
+  border-color: cadetblue;
+  border: 1cm;
+  width: 30;
+  align-self: center;
+}
+
+.header2 {
+  width: 100%;
+  background-color: #ffffff;
+  position: relative;
+}
+
 nav{
   display: flex;
   padding: 2% 6%;
@@ -18,16 +33,10 @@ nav{
   align-items: center;
 }
 
-.header-img{
-  width: 150px;
-  align-items: center;
-  padding: 6px 12px;
-}
 .nav-links{
   flex: 1;
   text-align: center;
-  font-size: 62px;
-background-color: #3d6ae6;
+  font-size: 50px;
   background-size: 62px;
 }
 .nav-links ul li{
