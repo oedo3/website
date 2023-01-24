@@ -6,7 +6,7 @@
 
 .header {
   min-height: 90vh;
-  width: 100%;
+  width: 200%;
   background-image: url(images/simple_wallpaper.jpg);
   background-position: center;
   background-size: cover;
@@ -20,11 +20,71 @@
 }
 
 .header-img{
+  image-rendering: pixelated;
+}
+
+.header2 {
   width: 100%;
-  border-color: cadetblue;
-  border: 1px;
-  width: 10;
-  align-self: center;
+  background-color: #ffffff;
+  position: relative;
+}
+
+nav{
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links{
+  flex: 1;
+  text-align: center;
+  font-size: 40px;
+  background-size: 62px;
+}
+.nav-links ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 6px 12px;
+  position: relative;
+}
+.nav-links ul li a{
+  color: rgb(110, 185, 250);
+  text-decoration: navajowhite;
+}
+.nav-links ul li::after{
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #3d6ae6;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+  width: 100%;
+}*{
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  min-height: 90vh;
+  width: 100%;
+  background-image: url(images/simple_wallpaper.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+
+  text-align: center;
+  font-size: 55px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #ffffff;
+}
+
+.header-img{
+  width: auto;
+  height: auto;
 }
 
 .header2 {
