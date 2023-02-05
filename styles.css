@@ -1,9 +1,3 @@
- 
-*{
-  margin: 0;
-  padding: 0;
-}
-
 .header {
   min-height: 90vh;
   width: 200%;
@@ -13,12 +7,16 @@
   position: relative;
 
   text-align: center;
-  font-size: 55px;
+  font-size: 50px;
   font-family: 'Times New Roman', Times, serif;
   color: #ffffff;
   padding-right: 50px;
 }
 
+#portrait {
+     width: 307px;
+     height: 430px;
+}
 .header-img{
   image-rendering: pixelated;
 }
@@ -80,7 +78,6 @@ nav{
   font-size: 55px;
   font-family: 'Times New Roman', Times, serif;
   color: #ffffff;
-  
 }
 
 .header-img{
